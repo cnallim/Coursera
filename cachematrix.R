@@ -2,7 +2,7 @@
 #How to use this code: a) define and assign a matrix to a variable ´t
 # b) Create object ´a´ this way:  a<-makeCacheMatrix(´t)
 # c) invoke c<-cacheSolve(a)
-# d) See result: print c and you´ll get it
+# d) See result: print c to check and you´ll get it
 # e) If you invoke again c<-cacheSolve(a), since the result is already in the cache,
 #   you will get a message telling you so (hence the mean won´t be recalculated. The)
 #   existing result will be used
